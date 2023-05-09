@@ -1,0 +1,412 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      #header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      #header h1 {
+        margin: 0;
+      }
+
+      #main {
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      #main h2 {
+        margin-top: 0;
+      }
+
+      #form {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        width: 45%;
+      }
+
+      #form input[type="number"],
+      #form select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+      }
+
+      #form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 12px 20px;
+      }
+
+      #form input[type="submit"]:hover {
+        background-color: #555;
+      }
+
+      #result {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        width: 45%;
+        height: 250px;
+        overflow: auto;
+      }
+
+      #result h2 {
+        margin-top: 0;
+      }
+  
+body.dark-mode {
+  color: white;
+  background-color: black;
+}
+
+header {
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: #ff8c00;
+}
+
+.button {
+	background-color: #fff;
+	color: #000;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+
+.button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.hero-section {
+background-image: url(site-ul/White\ logo\ -\ no\ background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  float: left;
+  width: 50%;
+
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffae52;
+}
+
+.benefits-section {
+	max-width: 1200px;
+	margin: 50px auto;
+}
+
+.benefits-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.benefit-item {
+	max-width
+
+    : 350px;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    
+    .benefit-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    }
+    
+    .benefit-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    .benefit-description {
+    font-size: 16px;
+    color: #555;
+    }
+    
+    .Comentarii-section {
+    background-color: #9b9b9b;
+    padding: 50px 0;
+    }
+  .Comentarii-section.dark-mode{
+    background-color: #000;
+    color: white;
+    padding: 50px 0;
+  }
+      
+    
+    
+    .Comentarii-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .Comentariu-item {
+    width: 45%;
+    margin-bottom: 30px;
+    }
+    
+    .Comentariu-author {
+    font-style: Arial;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+    
+    .footer-wrapper {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .footer-left h3 {
+    margin-bottom: 10px;
+    }
+    
+    .footer-left p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+    }
+    
+    .footer-right nav ul {
+    display: flex;
+    }
+    
+    .footer-right nav li {
+    margin-right: 20px;
+    }
+    
+    .footer-right nav li:last-child {
+    margin-right: 0;
+    }
+    
+    .footer-right nav a {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+    }
+    
+    .footer-right nav a:hover {
+    color: #000;
+    }
+    .footer-right nav a.dark-mode{
+      color: #ddd;
+    }
+    
+    .social-icons a {
+    margin-right: 20px;
+    }
+    
+    .social-icons a:last-child {
+    margin-right: 0;
+    }
+    
+    .social-icons img {
+    width: 30px;
+    height: 30px;
+    }
+    
+    .inregistrare{
+
+        color: #555;
+        background-color: beige;
+        font:   bold;
+
+        font-size: 15px;
+         }
+    
+    .inregistrare :hover{
+      color: white;
+      background-color: #000;
+    }
+
+    .antrenor{
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 32px;
+      width: 100%;
+      margin-bottom: 30px;
+
+      flex-basis: calc(33.33% - 1rem);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+
+    }
+
+    #start-form {
+      color: #ff8c00;
+       text-shadow: #555;
+      text-align: center;
+    }
+    
+    #start-form form {
+      float: left;
+        width: 50%;
+    }
+    
+    #start-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    #start-form select {
+      width: 100%;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #f79656;
+      margin-bottom: 10px;
+    }
+    
+    #start-form button {
+      background-color: #f79656;
+      color: #111111;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    #start-form button:hover {
+      background-color: #0066cc;
+    }
+    
+
+   
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+       
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-container p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
